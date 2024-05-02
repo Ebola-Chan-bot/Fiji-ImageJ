@@ -1,0 +1,9 @@
+﻿<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Package Name="Fiji_ImageJ" Manufacturer="TODO Manufacturer" Version="1.0.0.0" UpgradeCode="6eadf84c-d6c6-4712-a993-0fdb5183d1f4">
+    <MajorUpgrade DowngradeErrorMessage="!(loc.DowngradeError)" />
+
+    <Feature Id="Main">
+      <ComponentGroupRef Id="ExampleComponents" />
+    </Feature>
+  </Package>
+</Wix>
